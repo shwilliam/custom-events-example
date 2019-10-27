@@ -1,0 +1,27 @@
+{
+  "name": "custom-events-example",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server ./docs",
+    "build": "webpack ./src/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwilliam/custom-events-example.git"
+  },
+  "author": "William L <w-lindvall@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shwilliam/custom-events-example/issues"
+  },
+  "homepage": "https://github.com/shwilliam/custom-events-example#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.4",
+    "eslint": "^6.6.0",
+    "http-server": "^0.11.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
